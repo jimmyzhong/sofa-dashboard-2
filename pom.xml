@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>xyz.lot.sofa</groupId>
+    <artifactId>sofa-shop-dashboard</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>sofa-admin</module>
+        <module>sofa-db-commons</module>
+        <module>sofa-db-mongo-commons</module>
+    </modules>
+
+   <!-- <parent>
+        <groupId>xyz.lot.sofa</groupId>
+        <artifactId>sofa-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>-->
+    <parent>
+        <groupId>one.yiran</groupId>
+        <artifactId>yiran-parent</artifactId>
+        <version>3.0-SNAPSHOT</version>
+    </parent>
+
+
+    <repositories>
+        <repository>
+            <id>rdc-releases</id>
+            <url>http://maven.izhong.me/maven/repository/2019196-release-CrAseM/</url>
+        </repository>
+        <repository>
+            <id>rdc-snapshots</id>
+            <url>http://maven.izhong.me/maven/repository/2019196-snapshot-WCGvrD/</url>
+        </repository>
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+        <repository>
+            <id>michaelklishin</id>
+            <url>https://dl.bintray.com/michaelklishin/maven/</url>
+        </repository>
+    </repositories>
+
+</project>
