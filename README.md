@@ -10,7 +10,8 @@
 # 请自主完成，首先clone github代码到本地，新增mongo数据库，安装完成后，导入初始化数据，初始的后台
 账户密码是 admin/admin123 , 完成后请联系招聘人员。
 
-# mongodb的初始化数据在目录： init/mongodb需要初始化的数据
+# mongodb的初始化数据在目录： init/mongodb需要初始化的数据, mongodb需要已复制集方式运行
+登陆后执行 rs.initiate();
 
 # 系统运行类是 DashboardMainApplication ，有main方法，可以直接运行
 
